@@ -1,4 +1,4 @@
-"use strict";
+//"use strict";
 
 // IIFE
 (function(){
@@ -9,6 +9,24 @@
         tom.SaysHello();
         tom.Studies();
 
+        console.log(tom);
+
+
+        let teacher = {
+            name: "Mark",
+            ID: "B1234",
+            age: 35,
+            Teaches: function()
+            {
+                console.log(`${teacher.name} is teaching`);
+            } 
+        };
+
+        teacher.Teaches();
+
+        console.log(teacher);
+
+        
     }
 
     window.addEventListener("load", Start);
