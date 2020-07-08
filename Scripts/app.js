@@ -5,8 +5,9 @@
 
      function Start()
     {
-        let tom = new objects.Person("Tom", 30);
-        tom.saysHello();
+        let tom = new objects.Student("Tom", 30, "A1234567890");
+        tom.SaysHello();
+        tom.Studies();
 
     }
 

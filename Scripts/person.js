@@ -39,7 +39,7 @@ let objects;
         }
 
         // METHODS
-        saysHello()
+        SaysHello()
         {
             console.log(`${this.Name} says Hello!`);
         }
